@@ -9,7 +9,20 @@ function App() {
             <img src="" alt="" className="logo" />
             <span className="brand">CMS Chat</span>
           </div>
-          <button className="midBtn"></button>
+          <button className="midBtn">
+            <img src="" alt="" className="addBtn" />
+            New Chat
+          </button>
+          <div className="upperSideBottom">
+            <button className="query">
+              <img src="" alt="" className="bubble" />
+              What is Programming?
+            </button>
+            <button className="query">
+              <img src="" alt="" className="bubble" />
+              What is Programming?
+            </button>
+          </div>
         </div>
         <div className="lowerSide"></div>
       </div>
