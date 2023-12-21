@@ -1,4 +1,5 @@
 import "./App.css";
+import cmsLogo from "./assets/CodeMonkey-removebg-preview.png";
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className="sidebar">
         <div className="upperSide">
           <div className="upperSideTop">
-            <img src="" alt="" className="logo" />
+            <img src={cmsLogo} alt="" className="logo" />
             <span className="brand">CMS Chat</span>
           </div>
           <button className="midBtn">
