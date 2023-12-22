@@ -7,7 +7,7 @@ function App() {
       <div className="sideBar">
         <div className="upperSide">
           <div className="upperSideTop">
-            <img src={cmsLogo} alt="" className="logo" />
+            <img src={cmsLogo} alt="Logo" className="logo" />
             <span className="brand">CMS Chat</span>
           </div>
           <button className="midBtn">
@@ -25,7 +25,9 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="lowerSide"></div>
+        <div className="lowerSide">
+          <div className="listItems"></div>
+        </div>
       </div>
       <div className="main"></div>
     </div>

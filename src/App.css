@@ -36,8 +36,13 @@ body {
 
 .brand {
   font-size: 2rem;
+  
 }
 
 .upperSide {
   padding: 2.5rem;
+}
+
+.upperSideTop {
+  padding-bottom: 2rem;
 }
