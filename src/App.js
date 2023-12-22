@@ -26,7 +26,18 @@ function App() {
           </div>
         </div>
         <div className="lowerSide">
-          <div className="listItems"></div>
+          <div className="listItems">
+            <img src="" alt="" className="listItemsImg" />
+            Home
+          </div>
+          <div className="listItems">
+            <img src="" alt="" className="listItemsImg" />
+            Home
+          </div>
+          <div className="listItems">
+            <img src="" alt="" className="listItemsImg" />
+            Home
+          </div>
         </div>
       </div>
       <div className="main"></div>
