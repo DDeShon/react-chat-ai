@@ -4,7 +4,7 @@ import cmsLogo from "./assets/CodeMonkey-removebg-preview.png";
 function App() {
   return (
     <div className="App">
-      <div className="sidebar">
+      <div className="sideBar">
         <div className="upperSide">
           <div className="upperSideTop">
             <img src={cmsLogo} alt="" className="logo" />

@@ -21,6 +21,8 @@ body {
 
 .sideBar {
   flex: 3;
+  border-right: 1px solid white;
+  
 }
 
 .main {
@@ -29,8 +31,10 @@ body {
 
 .logo {
   height: 6rem;
+  margin-right: 1rem;
 }
 
 .brand {
   font-size: 3rem;
+  text-align: center;
 }
