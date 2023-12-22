@@ -35,6 +35,9 @@ body {
 }
 
 .brand {
-  font-size: 3rem;
-  text-align: center;
+  font-size: 2rem;
+}
+
+.upperSide {
+  padding: 2.5rem;
 }
