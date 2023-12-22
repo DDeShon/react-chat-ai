@@ -19,3 +19,11 @@ body {
   display: flex;
 }
 
+.sideBar {
+  flex: 3;
+}
+
+.main {
+  flex: 9;
+}
+
