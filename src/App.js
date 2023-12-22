@@ -32,11 +32,11 @@ function App() {
           </div>
           <div className="listItems">
             <img src="" alt="" className="listItemsImg" />
-            Home
+            Saved Chats
           </div>
           <div className="listItems">
             <img src="" alt="" className="listItemsImg" />
-            Home
+            Upgrade to Pro
           </div>
         </div>
       </div>
