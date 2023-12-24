@@ -2,6 +2,8 @@ import "./App.css";
 import cmsLogo from "./assets/CodeMonkey-removebg-preview.png";
 import addBtn from "./assets/add-30.png";
 import msgIcon from "./assets/message.svg";
+import homeIcon from "./assets/home.svg";
+import savedChat from "./assets/bookmark.svg";
 
 function App() {
   return (
@@ -29,11 +31,11 @@ function App() {
         </div>
         <div className="lowerSide">
           <div className="listItems">
-            <img src="" alt="" className="listItemsImg" />
+            <img src={homeIcon} alt="" className="listItemsImg" />
             Home
           </div>
           <div className="listItems">
-            <img src="" alt="" className="listItemsImg" />
+            <img src={savedChat} alt="" className="listItemsImg" />
             Saved Chats
           </div>
           <div className="listItems">
