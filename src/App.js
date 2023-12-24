@@ -1,5 +1,7 @@
 import "./App.css";
 import cmsLogo from "./assets/CodeMonkey-removebg-preview.png";
+import addBtn from "./assets/add-30.png";
+import msgIcon from "./assets/message.svg";
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
             <span className="brand">CMS Chat</span>
           </div>
           <button className="midBtn">
-            <img src="" alt="" className="addBtn" />
+            <img src={addBtn} alt="New Chat" className="addBtn" />
             New Chat
           </button>
           <div className="upperSideBottom">
