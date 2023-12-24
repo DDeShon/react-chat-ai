@@ -23,7 +23,7 @@ function App() {
             </button>
             <button className="query">
               <img src={msgIcon} alt="" className="bubble" />
-              What is Programming?
+              How do you use an API?
             </button>
           </div>
         </div>
