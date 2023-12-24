@@ -18,11 +18,11 @@ function App() {
           </button>
           <div className="upperSideBottom">
             <button className="query">
-              <img src="" alt="" className="bubble" />
+              <img src={msgIcon} alt="" className="bubble" />
               What is Programming?
             </button>
             <button className="query">
-              <img src="" alt="" className="bubble" />
+              <img src={msgIcon} alt="" className="bubble" />
               What is Programming?
             </button>
           </div>
