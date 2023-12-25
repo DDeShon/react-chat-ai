@@ -2,7 +2,7 @@ import "./App.css";
 import cmsLogo from "./assets/CodeMonkey-removebg-preview.png";
 import addBtn from "./assets/add-30.png";
 import msgIcon from "./assets/message.svg";
-import homeIcon from "./assets/home.svg";
+import home from "./assets/home.svg";
 import savedChat from "./assets/bookmark.svg";
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         </div>
         <div className="lowerSide">
           <div className="listItems">
-            <img src={homeIcon} alt="" className="listItemsImg" />
+            <img src={home} alt="" className="listItemsImg" />
             Home
           </div>
           <div className="listItems">
