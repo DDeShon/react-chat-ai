@@ -3,7 +3,7 @@ import cmsLogo from "./assets/CodeMonkey-removebg-preview.png";
 import addBtn from "./assets/add-30.png";
 import msgIcon from "./assets/message.svg";
 import home from "./assets/home.svg";
-import savedChat from "./assets/bookmark.svg";
+import saved from "./assets/bookmark.svg";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
             Home
           </div>
           <div className="listItems">
-            <img src={savedChat} alt="" className="listItemsImg" />
+            <img src={saved} alt="" className="listItemsImg" />
             Saved Chats
           </div>
           <div className="listItems">
