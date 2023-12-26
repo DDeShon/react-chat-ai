@@ -32,15 +32,15 @@ function App() {
         </div>
         <div className="lowerSide">
           <div className="listItems">
-            <img src={home} alt="" className="listItemsImg" />
+            <img src={home} alt="Home" className="listItemsImg" />
             Home
           </div>
           <div className="listItems">
-            <img src={saved} alt="" className="listItemsImg" />
+            <img src={saved} alt="Saved" className="listItemsImg" />
             Saved Chats
           </div>
           <div className="listItems">
-            <img src={rocket} alt="" className="listItemsImg" />
+            <img src={rocket} alt="Upgrade" className="listItemsImg" />
             Upgrade to Pro
           </div>
         </div>
