@@ -31,7 +31,6 @@ body {
 
 .logo {
   height: 6rem;
-  margin-right: 1rem;
 }
 
 .brand {
@@ -41,8 +40,12 @@ body {
 
 .upperSide {
   padding: 2.5rem;
+  border-bottom: 1px solid white;
+  height: 70%;
 }
 
 .upperSideTop {
-  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
 }
