@@ -101,3 +101,11 @@ body {
 .listItemsImg {
   margin-right: 2rem;
 }
+
+.listItems:nth-child(1)>.listItemsImg {
+  margin-right: 1.5rem;
+}
+
+.listItems:nth-child(3)>.listItemsImg {
+  margin-right: 1.8rem;
+}
