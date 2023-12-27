@@ -88,12 +88,12 @@ body {
 }
 
 .lowerSide {
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 .listItems {
   display: flex;
   align-items: center;
   margin: 2rem auto;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
