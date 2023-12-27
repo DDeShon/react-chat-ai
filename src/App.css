@@ -84,4 +84,16 @@ body {
 
 .query > img {
   margin-right: 2rem;
+  height: 1.75rem;
+}
+
+.lowerSide {
+  padding: 2rem;
+}
+
+.listItems {
+  display: flex;
+  align-items: center;
+  margin: 2rem auto;
+  font-size: 1.5rem;
 }
