@@ -69,3 +69,17 @@ body {
   margin-bottom: 3rem;
   border-radius: .5rem;
 }
+
+.query {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+  background-color:#a22fd0;
+  color: white;
+  border-color: white;
+  padding: .5rem;
+}
