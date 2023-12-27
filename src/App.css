@@ -73,13 +73,11 @@ body {
 .query {
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 25rem;
-  margin: 0 auto;
-  margin-bottom: 1rem;
+  margin: 1rem auto;
   border-radius: .5rem;
-  background-color:#a22fd0;
+  background: transparent;
   color: white;
   border-color: white;
-  padding: .5rem;
+  padding: 1.5rem;
 }
