@@ -50,7 +50,15 @@ function App() {
       <div className="main">
         <div className="chats">
           <div className="chat">
-            <img src={userIcon} alt="" />{" "}
+            <img src={userIcon} alt="" className="userChatImg" />
+            <p className="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae omnis ad illum iure similique culpa commodi natus quae
+              animi mollitia?
+            </p>
+          </div>
+          <div className="chat">
+            <img src={cmsLogo} alt="" className="cmsChatImg" />
             <p className="text">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Repudiandae omnis ad illum iure similique culpa commodi natus quae
