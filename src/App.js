@@ -52,7 +52,7 @@ function App() {
           <div className="input">
             <input type="text" />{" "}
             <button className="send">
-              <img src="" alt="" />
+              <img src={sendBtn} alt="" />
             </button>
           </div>
         </div>
