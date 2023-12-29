@@ -129,12 +129,16 @@ body {
 
 .input {
   padding: .5rem;
-  background: white;
+  background: #522FD0;
+  display: flex;
+  align-items: center;
 }
 
 .input>input {
   width: calc(100% - 3rem);
   outline: none;
+  padding: 1.25rem;
+  color: white;
 }
 
 .input>input, .send {
