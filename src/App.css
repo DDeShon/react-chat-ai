@@ -67,7 +67,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 3rem;
-  border-radius: .5rem;
+  border-radius: 1rem;
 }
 
 .query {
@@ -75,7 +75,7 @@ body {
   align-items: center;
   width: 25rem;
   margin: 1rem auto;
-  border-radius: .5rem;
+  border-radius: 1rem;
   background: transparent;
   color: white;
   border: 1px solid white;
@@ -129,9 +129,10 @@ body {
 
 .input {
   padding: .5rem;
-  background: #522FD0;
+  background: #8B28B3;
   display: flex;
   align-items: center;
+  border-radius: 1rem;
 }
 
 .input>input {
