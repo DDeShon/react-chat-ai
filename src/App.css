@@ -126,3 +126,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.input {
+  padding: .5rem;
+}
