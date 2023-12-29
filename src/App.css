@@ -146,3 +146,7 @@ body {
   background: transparent;
   border: none;
 }
+
+.userImg {
+  height: 6rem;
+}
