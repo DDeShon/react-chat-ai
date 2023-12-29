@@ -129,4 +129,15 @@ body {
 
 .input {
   padding: .5rem;
+  background: white;
+}
+
+.input>input {
+  width: calc(100% - 3rem);
+  outline: none;
+}
+
+.input>input, .send {
+  background: transparent;
+  border: none;
 }
