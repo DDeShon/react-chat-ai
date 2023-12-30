@@ -30,7 +30,7 @@ body {
 }
 
 .logo {
-  height: 6rem;
+  max-height: 6rem;
 }
 
 .brand {
@@ -148,5 +148,5 @@ body {
 }
 
 .userImg {
-  height: 6rem;
+  max-height: 6rem;
 }
