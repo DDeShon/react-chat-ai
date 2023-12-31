@@ -119,6 +119,24 @@ body {
   margin-bottom: 0;
 }
 
+.chats {
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 70rem;
+  height: calc(100vh - 17rem);
+}
+
+.chat {
+  margin: 1rem;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+}
+
 .chatFooter {
   margin-top: auto;
   width: 100%;
@@ -149,8 +167,11 @@ body {
   border: none;
 }
 
-.userImg {
-  max-height: 6rem;
+.chatImg {
+  object-fit: cover;
+  width: 4rem;
+  margin-right: 2rem;
+  border-radius: 1rem;;
 }
 
 .chatFooter>p {

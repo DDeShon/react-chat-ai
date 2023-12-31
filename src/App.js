@@ -50,7 +50,7 @@ function App() {
       <div className="main">
         <div className="chats">
           <div className="chat">
-            <img src={userIcon} alt="" className="userImg" />
+            <img src={userIcon} alt="" className="chatImg" />
             <p className="text">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Repudiandae omnis ad illum iure similique culpa commodi natus quae
@@ -58,7 +58,7 @@ function App() {
             </p>
           </div>
           <div className="chat">
-            <img src={cmsLogo} alt="" className="logo" />
+            <img src={cmsLogo} alt="" className="chatImg" />
             <p className="text">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Repudiandae omnis ad illum iure similique culpa commodi natus quae
