@@ -57,7 +57,7 @@ function App() {
               animi mollitia?
             </p>
           </div>
-          <div className="chat">
+          <div className="chat bot">
             <img src={cmsLogo} alt="" className="chatImg" />
             <p className="text">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
