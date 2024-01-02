@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #a22fd0;
+  background: #8B28B3;
   color: white;
   font-family: "Poppins", sans-serif;
 }
@@ -148,7 +148,7 @@ body {
 
 .input {
   padding: .5rem;
-  background: #8B28B3;
+  background: #a22fd0;
   display: flex;
   align-items: center;
   border-radius: 1rem;
@@ -172,6 +172,12 @@ body {
   width: 4rem;
   margin-right: 2rem;
   border-radius: 1rem; 
+}
+
+.bot {
+  background: #a22fd0;
+  width: fit-content;
+  border-radius: 1rem;
 }
 
 .chatFooter>p {
