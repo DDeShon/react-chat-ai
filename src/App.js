@@ -13,8 +13,8 @@ import { useState } from "react";
 function App() {
   const [input, setInput] = useState("");
 
-  const handleSend = () => {
-    const response = sendMsgToOpenAI();
+  const handleSend = async () => {
+    const response = await sendMsgToOpenAI(input);
   };
 
   return (
@@ -84,7 +84,7 @@ function App() {
                 setInput(e.target.value);
               }}
             />
-            <button className="send">
+            <button className="send" onClick={handleSend}>
               <img src={sendBtn} alt="send" />
             </button>
           </div>
