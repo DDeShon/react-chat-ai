@@ -7,8 +7,16 @@ import saved from "./assets/bookmark.svg";
 import rocket from "./assets/rocket.svg";
 import sendBtn from "./assets/send.svg";
 import userIcon from "./assets/user-icon.png";
+import { sendMsgToOpenAI } from "./openAI";
+import { useState } from "react";
 
 function App() {
+  const [input, setInput] = useState("");
+
+  const handleSend = () => {
+    const response = sendMsgToOpenAI();
+  };
+
   return (
     <div className="App">
       <div className="sideBar">
@@ -68,7 +76,14 @@ function App() {
         </div>
         <div className="chatFooter">
           <div className="input">
-            <input type="text" placeholder="Send a request" />
+            <input
+              type="text"
+              placeholder="Send a request"
+              value={input}
+              onChange={(e) => {
+                setInput(e.target.value);
+              }}
+            />
             <button className="send">
               <img src={sendBtn} alt="send" />
             </button>
