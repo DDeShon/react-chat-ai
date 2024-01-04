@@ -1,9 +1,7 @@
 import apiKey from "./.env";
 
 const { Configuration, OpenAIApi } = require("openai");
-const configuration = new Configuration({
-  apiKey: apiKey,
-});
+const configuration = new Configuration({ apiKey: apiKey });
 const openai = new OpenAIApi(configuration);
 
 export async function sendMsgToOpenAI(message) {
@@ -14,7 +12,7 @@ export async function sendMsgToOpenAI(message) {
     max_tokens: 256,
     top_p: 1,
     frequency_penalty: 0,
-    presence_penalty: 0,
+    presense_penalty: 0,
   });
   return response.data.choices[0].text;
 }
