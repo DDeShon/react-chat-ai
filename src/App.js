@@ -12,9 +12,16 @@ import { useState } from "react";
 
 function App() {
   const [input, setInput] = useState("");
+  const [messages, setMessages] = useState([
+    {
+      text: "Hello, I am CMS Chat.",
+      isBot: true,
+    },
+  ]);
 
   const handleSend = async () => {
     const response = await sendMsgToOpenAI(input);
+    setMessages;
   };
 
   return (
