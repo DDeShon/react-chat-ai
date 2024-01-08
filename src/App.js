@@ -84,6 +84,12 @@ function App() {
               animi mollitia?
             </p>
           </div>
+          {messages.map((message, i) => {
+            <div className={message.isBot ? "chat bot" : "chat"}>
+              <img src={cmsLogo} alt="" className="chatImg" />
+              <p className="text">{message.text}</p>
+            </div>;
+          })}
         </div>
         <div className="chatFooter">
           <div className="input">
