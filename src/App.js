@@ -21,7 +21,11 @@ function App() {
 
   const handleSend = async () => {
     const response = await sendMsgToOpenAI(input);
-    setMessages([...messages]);
+    setMessages([
+      ...messages,
+      { text: input, isBot: false },
+      { text: response, isBot: true },
+    ]);
   };
 
   return (
