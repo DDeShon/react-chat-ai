@@ -68,25 +68,13 @@ function App() {
       </div>
       <div className="main">
         <div className="chats">
-          <div className="chat">
-            <img src={userIcon} alt="" className="chatImg" />
-            <p className="text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae omnis ad illum iure similique culpa commodi natus quae
-              animi mollitia?
-            </p>
-          </div>
-          <div className="chat bot">
-            <img src={cmsLogo} alt="" className="chatImg" />
-            <p className="text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae omnis ad illum iure similique culpa commodi natus quae
-              animi mollitia?
-            </p>
-          </div>
           {messages.map((message, i) => {
             <div className={message.isBot ? "chat bot" : "chat"}>
-              <img src={cmsLogo} alt="" className="chatImg" />
+              <img
+                src={message.isBot ? cmsLogo : userIcon}
+                alt=""
+                className="chatImg"
+              />
               <p className="text">{message.text}</p>
             </div>;
           })}
