@@ -93,10 +93,7 @@ function App() {
               <img src={sendBtn} alt="send" />
             </button>
           </div>
-          <p>
-            CMS Chat may produce inaccurate information about people, places or
-            facts. CMS Chat December 23 Version.
-          </p>
+          <p>CMS Chat December 23 Version.</p>
         </div>
       </div>
     </div>
