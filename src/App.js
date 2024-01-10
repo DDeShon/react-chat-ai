@@ -69,7 +69,7 @@ function App() {
       <div className="main">
         <div className="chats">
           {messages.map((message, i) => {
-            <div className={message.isBot ? "chat bot" : "chat"}>
+            <div key={i} className={message.isBot ? "chat bot" : "chat"}>
               <img
                 src={message.isBot ? cmsLogo : userIcon}
                 alt=""
