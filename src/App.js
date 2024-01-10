@@ -68,7 +68,7 @@ function App() {
       </div>
       <div className="main">
         <div className="chats">
-          {messages.map((message, i) => {
+          {messages.map((message, i) => (
             <div key={i} className={message.isBot ? "chat bot" : "chat"}>
               <img
                 src={message.isBot ? cmsLogo : userIcon}
@@ -76,8 +76,8 @@ function App() {
                 className="chatImg"
               />
               <p className="text">{message.text}</p>
-            </div>;
-          })}
+            </div>
+          ))}
         </div>
         <div className="chatFooter">
           <div className="input">
