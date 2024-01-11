@@ -81,6 +81,7 @@ function App() {
               <p className="text">{message.text}</p>
             </div>
           ))}
+          <div ref={msgEnd} />
         </div>
         <div className="chatFooter">
           <div className="input">
