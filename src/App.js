@@ -8,9 +8,11 @@ import rocket from "./assets/rocket.svg";
 import sendBtn from "./assets/send.svg";
 import userIcon from "./assets/user-icon.png";
 import { sendMsgToOpenAI } from "./openAI";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 function App() {
+  const msgEnd = useRef(null);
+
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
     {
