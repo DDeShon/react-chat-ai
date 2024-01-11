@@ -8,7 +8,7 @@ import rocket from "./assets/rocket.svg";
 import sendBtn from "./assets/send.svg";
 import userIcon from "./assets/user-icon.png";
 import { sendMsgToOpenAI } from "./openAI";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function App() {
   const msgEnd = useRef(null);
@@ -20,6 +20,10 @@ function App() {
       isBot: true,
     },
   ]);
+
+  useEffect(() => {
+    msgEnd.current.scrollIntoView();
+  }, [messages]);
 
   const handleSend = async () => {
     const text = input;
