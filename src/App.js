@@ -37,6 +37,10 @@ function App() {
     ]);
   };
 
+  const handleEnter = async (e) => {
+    if (e.key == "Enter") await handleSend();
+  };
+
   return (
     <div className="App">
       <div className="sideBar">
