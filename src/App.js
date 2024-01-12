@@ -99,6 +99,7 @@ function App() {
               type="text"
               placeholder="Send a request"
               value={input}
+              onKeyDown={handleEnter}
               onChange={(e) => {
                 setInput(e.target.value);
               }}
