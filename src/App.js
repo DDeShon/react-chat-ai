@@ -49,7 +49,12 @@ function App() {
             <img src={cmsLogo} alt="Logo" className="logo" />
             <span className="brand">CMS Chat</span>
           </div>
-          <button className="midBtn">
+          <button
+            className="midBtn"
+            onClick={() => {
+              window.location.reload();
+            }}
+          >
             <img src={addBtn} alt="New Chat" className="addBtn" />
             New Chat
           </button>
