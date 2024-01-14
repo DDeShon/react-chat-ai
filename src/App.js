@@ -59,7 +59,7 @@ function App() {
             New Chat
           </button>
           <div className="upperSideBottom">
-            <button className="query">
+            <button className="query" value={"What is Programming ?"}>
               <img src={msgIcon} alt="" className="bubble" />
               What is Programming?
             </button>
