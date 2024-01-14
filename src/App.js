@@ -63,7 +63,7 @@ function App() {
               <img src={msgIcon} alt="" className="bubble" />
               What is Programming?
             </button>
-            <button className="query">
+            <button className="query" value={"How do you use an API ?"}>
               <img src={msgIcon} alt="" className="bubble" />
               How do you use an API?
             </button>
