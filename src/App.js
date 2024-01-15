@@ -41,6 +41,17 @@ function App() {
     if (e.key == "Enter") await handleSend();
   };
 
+  const handleQuery = async (e) => {
+    const text = e.target.value;
+    setMessages([...messages, { text, isBot: false }]);
+    const response = await sendMsgToOpenAI(text);
+    setMessages([
+      ...messages,
+      { text: text, isBot: false },
+      { text: response, isBot: true },
+    ]);
+  };
+
   return (
     <div className="App">
       <div className="sideBar">
