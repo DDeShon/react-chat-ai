@@ -59,11 +59,19 @@ function App() {
             New Chat
           </button>
           <div className="upperSideBottom">
-            <button className="query" value={"What is Programming ?"}>
+            <button
+              className="query"
+              onClick={handleQuery}
+              value={"What is Programming ?"}
+            >
               <img src={msgIcon} alt="" className="bubble" />
               What is Programming?
             </button>
-            <button className="query" value={"How do you use an API ?"}>
+            <button
+              className="query"
+              onClick={handleQuery}
+              value={"How do you use an API ?"}
+            >
               <img src={msgIcon} alt="" className="bubble" />
               How do you use an API?
             </button>
