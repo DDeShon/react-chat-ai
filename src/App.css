@@ -183,3 +183,8 @@ body {
 .chatFooter>p {
   margin: 2rem 0;
 }
+
+.text {
+  line-height: 2rem;
+  color: #522FD0;
+}
