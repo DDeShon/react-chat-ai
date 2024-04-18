@@ -1,1 +1,1 @@
-This is a clone of ChatGPT, created with React and JavaScript.
+This is going to be a clone of ChatGPT, created using React and JavaScript.
